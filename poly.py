@@ -1,22 +1,7 @@
-def remov_(l:list):
-    l2=l
-    flag=True
-    while flag:
-        try:
-            if l2[0]==0:
-                l2.remove(0)
-            else:
-                flag=False
-        except:
-            return l2
-    return l2
-
 class Pol:
     def __init__(self,co:list):
         self.co=co
-        # for element in self.co:
-        #     if not (isinstance(element,int) or isinstance(element,float)):
-        #          raise "error"
+        
 
 
     def __len__(self):
